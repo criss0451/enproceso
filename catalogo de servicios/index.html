@@ -1,0 +1,357 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Catalogo de servicios</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body>
+
+
+
+<div data-role="page" id="home" data-theme="e">
+  <div data-role="header">
+    <div class="ui-btn-left">
+        <a href="#page3" data-role="button" data-inline="true" data-icon="plus" data-iconpos="notext">Nuevo</a> </div>
+         
+    <h1>Catalogo de servicio</h1>
+  
+  </div>
+
+  <div data-role="content">
+
+    <p align="center"> 
+      <img src="fantasy15.jpg">
+    <ul data-count-theme="e" data-inset="true" data-role="listview" data-theme="c">
+      <li><a href="#page1"> Informacion del Servicio</a><a href="#">Default</a></li>
+      <li><a href="#page2"> Edicion del Servicio</a><a href="#">Default</a></li>
+      <li><a href="#page4"> Acerca de mi </a><a href="#">Default</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+<div data-position="fixed" data-role="footer" data-theme="c">
+    <div data-role="navbar" data-theme="e">
+    <ul>
+      <li><a href="#" data-icon="arrow-l"data-role="button" data-theme="e">Atras</a></li>
+      <li><a href="#" data-icon="home"data-role="button" data-theme="e">Inicio</a></li>
+      <li><a href="#page5" data-icon="info"data-role="button" data-theme="e">info</a></li>
+      <li><a href="#page1" "#page2" "#page3" "#page4" data-icon="arrow-r"data-role="button" data-theme="e">Siguiente</a></li>
+    </ul>
+    </div>
+  </div> 
+</div>
+
+
+
+
+ 
+    <div data-role="page" id="page4">
+    <div data-role="header" data-theme="e">
+      <h1>Acerca de mi</h1>
+      <center>
+<img src="cristian.png" width="350" height="200">
+        <div >
+        <label >Nombre:</label>
+        <br>
+        <label >Cristian Eduardo Zamora Morales </label>
+      </br>
+      </div>
+<br></br>
+       <div >
+        <label >Carrera:</label>
+        <br>
+        <label >Licenciatura en Ingenieria en Sistemas de Informacion </label>
+      </br>
+      </div>
+      <br></br>
+            <div >
+        <label >Materia:</label>
+        <br>
+        <label >Ingenieria Desarrollo de Aplicaciones para Comercio Electronico </label>
+      </br>
+      </div>
+      <br></br>
+             <div >
+        <label >Donacion:</label>
+        <br>
+        <select>
+        <option value="$50.00">$50.00</option>
+        <option value="$100.00">$100.00</option>
+        <option value="$500.00">$500.00</option>
+        <option value="$1000.00">$1000.00</option>
+     </select>
+      <input type="button" value=" Enviar Donacion" />
+
+      </br>
+      </div>
+      
+      
+      
+      </center>
+      
+      
+      
+      
+    </div>
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-theme="a">
+    <ul>
+      <li><a href="#" data-icon="arrow-l"data-role="button" data-theme="e">Atras</a></li>
+      <li><a href="#home" data-icon="home"data-role="button" data-theme="e">Inicio</a></li>
+      <li><a href="#page5" data-icon="info"data-role="button" data-theme="e">Info</a></li>
+      <li><a href="#" data-icon="arrow-r"data-role="button" data-theme="e">Siguiente</a></li>
+    </ul>
+    
+    
+    
+    
+    
+    </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div data-role="page" id="page1">
+  <div data-role="header">
+    <h1>Informacion de servicio</h1>
+  </div>
+  <div data-role="content"> 
+      <p align="center"> 
+        <img src="paisaje.jpg" width="350" height="180">
+      <div data-role="collapsible-set">
+        <div data-role="collapsible">
+          <h3>Historia</h3>
+          <p>Inicialmente, fue desarrollado por Nitobi bajo licencias de software libre, pero para Octubre de 2011 Adobe anunció oficialmente la adquisición de Nitobi, pasando, así PhoneGap al control del gigante del software, gran interesado en la evolución de HTML5. Esto generó una gran incertidumbre entre los desarrolladores, pues el framework podía pasar a ser una tecnología propietaria, pero en una genial estrategia, Adobe donó PhoneGap a la fundación Apache, conservando de esta forma la integridad libre de PhoneGap.
+
+
+        </div>
+        <div data-role="collapsible" data-collapsed="true">
+          <h3>¿Qué es Phonegap?</h3>
+          <p>PhoneGap es un paquete de librerías que permite empaquetar aplicaciones HTML5 de manera que puedan ser usadas como apps para móviles o Web Apps.
+        <p>
+        PhoneGap es una solución de Adobe que nos permite llevar el desarrollo para la web al mundo de los dispositivos. Se basa en una “envoltura” que nos permite ejecutar aplicaciones desarrolladas con HTML, CSS y Javascript como si fueran aplicaciones nativas para los teléfonos móviles o tablets.
+
+
+
+        </div>
+        <div data-role="collapsible" data-collapsed="true">
+          <h3>Características</h3>
+          <p>PhoneGap es un framework para el desarrollo de aplicaciones nativas de sistemas operativos móviles, haciendo uso de tecnologías web como HTML5, CSS3 y JavaScript. Con PhoneGap es posible desarrollar aplicaciones para los siguientes sistemas operativos:
+<p>
+Android<p>
+iOS<p>
+Windows Phone<p>
+BlackBerry OS<p>
+Web OS<p>
+Symbiam<p>
+Bada    </p>
+        </div>
+      </div>
+      </div>
+
+      
+      
+      
+
+
+      
+      
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-theme="a">
+    <ul>
+      <li><a href="#page1" data-icon="arrow-l"data-role="button" data-theme="c">Atras</a></li>
+      <li><a href="#home" data-icon="home"data-role="button" data-theme="c">Inicio</a></li>
+      <li><a href="#page5" data-icon="info" data-role="button" data-theme="c">Info</a></li>
+      <li><a href="#page2" data-icon="arrow-r"data-role="button" data-theme="c">Siguiente</a></li>
+    </ul>
+    </div>
+  </div>
+  </div> 
+  
+
+
+
+
+
+  
+    <div data-role="page" id="page3">
+    <div data-role="header" data-theme="e">
+      <h1>Alta de Servicio</h1>
+
+      <center>
+        <div data-role="fieldcontain">
+        <label for="textinput">Id:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+
+      <div data-role="fieldcontain">
+        <label for="textinput">Nombre del Servicio:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+            <div data-role="fieldcontain">
+        <label for="textinput">Imagen:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+            <div data-role="fieldcontain">
+        <label for="textinput">Telefono:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+            <div data-role="fieldcontain">
+        <label for="textinput">e-mail:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+      
+                  <div data-role="fieldcontain">
+        <label for="textinput">Domicilio:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+                  <div data-role="fieldcontain">
+        <label for="textinput">Categoria:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+                  <div data-role="fieldcontain">
+        <label for="textinput">Nota:</label>
+        <input type="text" name="textinput" id="textinput" value=""  />
+      </div>
+      
+            <input type="button" value="Guardar" />
+            <input type="button" value="Cancelar" />
+      
+      
+      
+      </center>
+      
+      
+      
+      
+    </div>
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-theme="a">
+    <ul>
+      <li><a href="#" data-icon="arrow-l"data-role="button" data-theme="e">Atras</a></li>
+      <li><a href="#home" data-icon="home"data-role="button" data-theme="e">Inicio</a></li>
+      <li><a href="#page5" data-icon="info"data-role="button" data-theme="e">Info</a></li>
+      <li><a href="#" data-icon="arrow-r"data-role="button" data-theme="e">Siguiente</a></li>
+    </ul>
+    
+    
+    
+    
+    
+    </div>
+
+    </div>
+  </div>
+    
+    
+      
+<div data-role="dialog" id="page5">
+  <div data-role="header">
+    <h1>Informacion</h1>
+  </div>
+  <div data-role="content"> 
+  *aplicacion desarrollada mediante Phonegab para proyecto final 
+  <br>
+  *por Cristian Eduardo Zamora Morales
+  <br>
+  *Mayo 2017 </div>
+ 
+  
+  <div data-role="footer">
+
+<input name="" type="button" data-theme="a" value="Salir" onClick=" window.location.href='#home' ">
+
+
+            
+
+
+  </div>
+</div>
+  
+  
+    
+    
+
+
+
+
+  
+<div data-role="page" id="page2">
+  <div data-role="header">
+  
+    <h1>JQuery Mobile</h1>
+  </div>
+  <div data-role="content"> 
+      <p align="center"> <IMG SRC="JQuery.png" ALIGN=middle WIDTH=178 HEIGHT=180 BORDER=0 VSPACE=5 HSPACE=5>
+   
+        <div data-role="collapsible">
+          <h3>¿Qué es jQuery Mobile?</h3>
+          jQuery Mobile es un framework de interfaz gráfica especialmente diseñado para el desarrollo de aplicaciones web para móviles que pretende unificar el diseño de interfaces de usuario para la mayoría de dispositivos móviles del mercado. Como su propio nombre indica, jQuery Mobile tiene como base el más que sólido framework javascript jQuery. Además, es un framework muy ligero, algo totalmente necesario por las propias características de los dispositivos móviles y sus capacidades de conexión. Por otro lado, el diseño es fácilmente modificable.<p>
+jQuery Mobile está apoyado en estos momentos por empresas tan importantes como
+Mozilla Corporation, Palm, Blackberry, Nokia y Adobe entre otras, y es que estas empresas no quieren seguir perdiendo mercado que dispositivos como Android y iPhone con sus aplicaciones nativas les ha hecho perder en los últimos tiempos.<p>
+El objetivo principal de este framework es conseguir una misma sensación de navegación por parte del usuario final en la mayoría de los dispositivos móviles. Por otro lado, si pensamos en el desarrollador, jQuery Mobile pretende que éste se centre en las características del producto y no tanto en el dispositivo móvil al que va dirigido tomando como suya la frase "write less, do more" (escribe menos, consigue más). </p>
+        </div>
+        <div data-role="collapsible" data-collapsed="false">
+          <h3>Características</h3>
+Las principales características de jQuery Mobile son las siguientes:<p>
+• Basado en el núcleo de jQuery.<p>
+• Compatible con la mayoría de los dispositivos y navegadores.<p>
+• Tamaño reducido, alrededor de los 20k.<p>
+• Uso de HTML5 y sus características para evitar tener que escribir scripts
+• Mejora progresiva, introduciendo todas las nuevas características a la gran mayoría de dispositivos.<p>
+• Accesibilidad, asegurando que las aplicaciones implementadas con jQuery Mobile funcionará correctamente en los lectores de pantalla (como VoiceOver en iOS).<p>
+• Se soportan la mayoría de los eventos de ratón y de contacto.<p>
+• Sencilla modificación del diseño base.<p>
+        </div>
+        <div data-role="collapsible" data-collapsed="false">
+          <h3>atributos comunes jQuery Mobile</h3>
+data-role – Especifica el rol de cada elemento, como “header”, “content”, “footer”, etc.
+data-theme – Especifica que tema de diseño se va a utilizar con los elementos dentro del contenedor. Puede ser “a” o “b”.
+data-position – Especifica si la posición de un elemento debería de ser fija, en cuyo caso se renderizará en la parte superior (en el header) o en la parte inferior (en el footer) por defecto, independientemente del tamaño del contenido mostrado.
+data-transition – Especifica una de las 10 posibles animaciones que se pueden emplear al pasar entre “pages”.
+data-icon – Especifica uno de los 50 posibles iconos que pueden ser añadidos a un elemento. Estos iconos se mostrarán siendo parte del elemento en el que se muestran.
+.<p>
+        </div>
+      </div>
+
+          
+<div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-theme="a">
+    <ul>
+      <li><a href="#page1" data-icon="arrow-l"data-role="button" data-theme="d">Atras</a></li>
+      <li><a href="#home" data-icon="home"data-role="button" data-theme="c">Inicio</a></li>
+      <li><a href="#page5" data-icon="info"data-role="button" data-theme="c">Info</a></li>
+      <li><a href="#page3" data-icon="arrow-r"data-role="button" data-theme="d">Siguiente</a></li>
+    </ul>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
